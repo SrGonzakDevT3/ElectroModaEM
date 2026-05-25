@@ -20,7 +20,8 @@ export default function Home() {
             src="/hero.jpg"
             alt="Hero ElectroModa"
             fill
-            style={{ objectFit: "center", opacity: 0.45 }}
+            sizes="100vw"
+            style={{ objectFit: "cover", opacity: 0.45 }}
             priority
           />
         </div>
@@ -89,7 +90,7 @@ export default function Home() {
         </div>
 
         <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <a className="group relative overflow-hidden rounded-lg" href="/colecciones/hombre">
+          <a className="group relative overflow-hidden rounded-lg" href="/hombre">
             <Image src="/colecciones/hombre.jpg" alt="Hombre" width={600} height={400} className="group-hover:scale-105 transition-transform" />
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <div className="text-white font-bold text-lg">HOMBRE</div>
@@ -97,7 +98,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a className="group relative overflow-hidden rounded-lg" href="/colecciones/mujer">
+          <a className="group relative overflow-hidden rounded-lg" href="/mujer">
             <Image src="/colecciones/mujer.jpg" alt="Mujer" width={600} height={400} className="group-hover:scale-105 transition-transform" />
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <div className="text-white font-bold text-lg">MUJER</div>
@@ -105,7 +106,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a className="group relative overflow-hidden rounded-lg" href="/colecciones/calzado">
+          <a className="group relative overflow-hidden rounded-lg" href="/calzado">
             <Image src="/colecciones/calzado.jpg" alt="Calzado" width={600} height={400} className="group-hover:scale-105 transition-transform" />
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <div className="text-white font-bold text-lg">CALZADO</div>
@@ -113,7 +114,7 @@ export default function Home() {
             </div>
           </a>
 
-          <a className="group relative overflow-hidden rounded-lg" href="/colecciones/accesorios">
+          <a className="group relative overflow-hidden rounded-lg" href="/accesorios">
             <Image src="/colecciones/accesorios.jpg" alt="Accesorios" width={600} height={400} className="group-hover:scale-105 transition-transform" />
             <div className="absolute inset-0 bg-black/30 flex flex-col justify-end p-6">
               <div className="text-white font-bold text-lg">ACCESORIOS</div>
