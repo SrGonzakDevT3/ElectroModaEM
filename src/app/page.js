@@ -21,7 +21,7 @@ export default function Home() {
             alt="Hero ElectroModa"
             fill
             sizes="100vw"
-            style={{ objectFit: "cover", opacity: 0.45 }}
+            style={{ objectFit: "center", opacity: 0.45 }}
             priority
           />
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
               <a href="#colecciones" className="bg-yellow-400 text-black px-6 py-3 rounded-md font-semibold hover:opacity-95">
                 COMPRAR AHORA →
               </a>
-              <a href="#beneficios" className="border border-white px-6 py-3 rounded-md text-white hover:bg-white/10">
+              <a href="/mas-info" className="border border-white px-6 py-3 rounded-md text-white hover:bg-white/10">
                 MÁS INFO
               </a>
             </div>
