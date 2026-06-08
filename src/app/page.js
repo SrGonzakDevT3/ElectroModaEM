@@ -1,4 +1,4 @@
-// Componente optimizado de Next.js para carga de imágenes (lazy loading, compresión, etc.)
+// Componente optimizado de Next.js para carga de imágenes de la pagina (lazy loading, compresión, etc.)
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/ProductCard";
