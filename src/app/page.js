@@ -36,7 +36,7 @@ export default function Home() {
           <div className="w-full md:w-1/2">
             <h2 className="text-sm tracking-widest text-yellow-300 font-semibold">NUEVA COLECCIÓN</h2>
             <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">
-              ACTIVA TU ME সহজেVERSIÓN
+              ACTIVA TU MEJOR VERSIÓN
             </h1>
             <p className="mt-4 text-gray-200 max-w-xl">
               Ropa deportiva diseñada para rendir al máximo dentro y fuera del entrenamiento.
